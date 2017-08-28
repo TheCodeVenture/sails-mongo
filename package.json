@@ -7,13 +7,7 @@
     "test": "make test",
     "docker": "docker-compose run adapter bash"
   },
-  "keywords": [
-    "mongo",
-    "mongodb",
-    "orm",
-    "waterline",
-    "sails"
-  ],
+  "keywords": ["mongo", "mongodb", "orm", "waterline", "sails"],
   "contributors": [
     {
       "name": "Cody Stoltman",
@@ -45,7 +39,7 @@
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
     "async": "2.0.1",
-    "mongodb": "2.2.22",
+    "mongodb": "^2.2.31",
     "validator": "4.5.1",
     "waterline-cursor": "0.0.7",
     "waterline-errors": "0.10.1"
@@ -57,13 +51,7 @@
   },
   "waterlineAdapter": {
     "waterlineVersion": "~0.10.0",
-    "interfaces": [
-      "semantic",
-      "queryable",
-      "associations"
-    ],
-    "features": [
-      "cross-adapter"
-    ]
+    "interfaces": ["semantic", "queryable", "associations"],
+    "features": ["cross-adapter"]
   }
 }
